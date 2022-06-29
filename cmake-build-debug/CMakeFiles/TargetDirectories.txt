@@ -1,0 +1,3 @@
+/Users/porfidev/Projects/CONALEP/practica01/cmake-build-debug/CMakeFiles/practica01.dir
+/Users/porfidev/Projects/CONALEP/practica01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/porfidev/Projects/CONALEP/practica01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
