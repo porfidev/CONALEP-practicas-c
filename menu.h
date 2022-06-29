@@ -11,6 +11,8 @@
 #include "practica03.h"
 #include "practica04.h"
 #include "practica05.h"
+#include "practica06.h"
+#include "practica07.h"
 #include <limits>
 
 void printMenu() {
@@ -21,6 +23,8 @@ void printMenu() {
     std::cout << "2. Constantes básicas" << std::endl;
     std::cout << "3. Uso de clases básicas" << std::endl;
     std::cout << "4. Variables locales y globales" << std::endl;
+    std::cout << "5. Arreglos" << std::endl;
+    std::cout << "6. Uso de Enumeradores" << std::endl;
 }
 
 std::string askToContinue() {
@@ -50,6 +54,12 @@ int menu() {
                 break;
             case 4:
                 showVars();
+                break;
+            case 5:
+                stringArrays();
+                break;
+            case 6:
+                printEnum();
                 break;
             default: std::cout << "Opción inválida" << std::endl;
                 break;
